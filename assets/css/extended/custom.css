@@ -1,0 +1,53 @@
+.posts-list .post-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+
+.posts-list .post-item img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.posts-list .post-item.reverse img {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.my-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.my-gallery figure {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+}
+
+.my-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .my-gallery figure {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .my-gallery figure {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+.footer span:nth-child(2) {
+    /* Ukryj Powered by */
+    display: none;
+}

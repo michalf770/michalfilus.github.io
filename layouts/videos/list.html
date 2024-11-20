@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="posts-list">
+    {{ $i := 0 }}
+    {{ range .Data.Pages }}
+    <article class="post-item">
+        {{ if .Params.thumbnail }}
+        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }} thumbnail">
+        {{ end }}
+        <div>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </div>
+    </article>
+    {{ $i = add $i 1 }}
+    {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Michal Filus</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Michal Filus</description>
+    <image>
+      <title>Michal Filus</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Nov 2024 08:00:10 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Video</title>
+      <link>http://localhost:1313/videos/music_video/</link>
+      <pubDate>Sun, 17 Nov 2024 08:00:10 -0700</pubDate>
+      <guid>http://localhost:1313/videos/music_video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Foreign language interview edit</title>
+      <link>http://localhost:1313/videos/farc/</link>
+      <pubDate>Sat, 16 Nov 2024 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/videos/farc/</guid>
+      <description>&lt;p&gt;For this project, I worked on material provided by the client. It included footage and a transcription of the interview: text in Spanish and Polish. Ultimately, the interview was to be ready for publication on YouTube with embedded subtitles in Polish.&lt;/p&gt;
+&lt;p&gt;The transcription contained only the initial time signatures for each of the statements. For this reason, additional work was required to break down the long statements into shorter ones that could be displayed as subtitles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gallery</title>
+      <link>http://localhost:1313/gallery/</link>
+      <pubDate>Sat, 16 Nov 2024 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/gallery/</guid>
+      <description>&lt;h3 id=&#34;portraits&#34;&gt;Portraits&lt;/h3&gt;
+&lt;h2 id=&#34;hahahugoshortcode2s0hbhb&#34;&gt;
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.7.1.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+	
+
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-665288c8761d48eb3366c37954243edc-0-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-665288c8761d48eb3366c37954243edc-0&#34; class=&#34;justified-gallery&#34;&gt;
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!(&#34;HSCGjQuery&#34; in window)) {
+		if (!window.jQuery) {
+			throw new Error(&#34;jQuery is not loaded, hugo-shortcode-gallery wont work without it!&#34;);
+		}
+		window.HSCGjQuery = window.jQuery.noConflict(true);
+	}
+
+	
+	
+	
+	
+	
+	;(function($) {
+
+		$( document ).ready(() =&gt; {
+			const gallery = $(&#34;#gallery-665288c8761d48eb3366c37954243edc-0&#34;);
+			
+
+			
+			let swipeboxInstance = null;
+
+			
+			
+			gallery.on(&#39;jg.complete&#39;, () =&gt; {
+				
+					
+					
+					$(() =&gt; {
+						$(&#39;.lazy&#39;).Lazy({
+							visibleOnly: true,
+							afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+						});
+					});
+				
+
+				swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+					$.extend({},
+						{  }
+					)
+				);
+			});
+
+			
+			gallery.justifiedGallery($.extend(
+				{
+					rowHeight : &#34;150&#34;,
+					margins : &#34;5&#34;,
+					border : 0,
+					randomize :  false ,
+					waitThumbnailsLoad : false,
+					lastRow : &#34;justify&#34;,
+					captions : false,
+					
+					
+				},
+				{  }
+			));
+
+			
+			
+		});
+
+	
+	
+	
+	})(window.HSCGjQuery)
+&lt;/script&gt;
+&lt;/h2&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;food&#34;&gt;Food&lt;/h3&gt;
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+	
+
+	
+&lt;/style&gt;
+
+
+
+
+
+&lt;div id=&#34;gallery-665288c8761d48eb3366c37954243edc-1-wrapper&#34; class=&#34;gallery-wrapper&#34;&gt;
+&lt;div id=&#34;gallery-665288c8761d48eb3366c37954243edc-1&#34; class=&#34;justified-gallery&#34;&gt;
+	
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+	if (!(&#34;HSCGjQuery&#34; in window)) {
+		if (!window.jQuery) {
+			throw new Error(&#34;jQuery is not loaded, hugo-shortcode-gallery wont work without it!&#34;);
+		}
+		window.HSCGjQuery = window.jQuery.noConflict(true);
+	}
+
+	
+	
+	
+	
+	
+	;(function($) {
+
+		$( document ).ready(() =&gt; {
+			const gallery = $(&#34;#gallery-665288c8761d48eb3366c37954243edc-1&#34;);
+			
+
+			
+			let swipeboxInstance = null;
+
+			
+			
+			gallery.on(&#39;jg.complete&#39;, () =&gt; {
+				
+					
+					
+					$(() =&gt; {
+						$(&#39;.lazy&#39;).Lazy({
+							visibleOnly: true,
+							afterLoad: element =&gt; element.css({filter: &#34;none&#34;, transition: &#34;filter 1.0s ease-in-out&#34;})
+						});
+					});
+				
+
+				swipeboxInstance = $(&#39;.galleryImg&#39;).swipebox(
+					$.extend({},
+						{  }
+					)
+				);
+			});
+
+			
+			gallery.justifiedGallery($.extend(
+				{
+					rowHeight : &#34;150&#34;,
+					margins : &#34;5&#34;,
+					border : 0,
+					randomize :  false ,
+					waitThumbnailsLoad : false,
+					lastRow : &#34;justify&#34;,
+					captions : false,
+					
+					
+				},
+				{  }
+			));
+
+			
+			
+		});
+
+	
+	
+	
+	})(window.HSCGjQuery)
+&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>http://localhost:1313/photos/</link>
+      <pubDate>Sat, 16 Nov 2024 08:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/photos/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

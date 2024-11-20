@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 1 1 40%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.right {
+    flex: 1 1 60%;
+    padding: 20px;
+    background-color: #d7e8ff;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Ogólny kontener */
+.container {
+    display: flex;
+    /* Ustawia układ poziomy */
+    justify-content: space-between;
+    /* Rozdziela sekcje */
+    align-items: center;
+    /* Wyrównuje pionowo */
+    height: 100vh;
+    /* Ustawia wysokość na 100% widocznego obszaru */
+}
+
+/* Sekcja po lewej */
+.left {
+    flex: 1;
+    /* Zajmuje 50% szerokości */
+    padding: 20px;
+    background-color: white;
+    /* Białe tło */
+    text-align: center;
+}
+
+/* Sekcja po prawej */
+.right {
+    flex: 1;
+    /* Zajmuje 50% szerokości */
+    padding: 20px;
+    background-color: #f0f8ff;
+    /* Jasnoniebieskie tło */
+}
+
+/* Obraz w lewej sekcji */
+.left img {
+    max-width: 100%;
+    /* Dopasowanie obrazka do kontenera */
+    height: auto;
+}
+
+/* Styl przycisków */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Ikony społecznościowe */
+.social-icons img {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
